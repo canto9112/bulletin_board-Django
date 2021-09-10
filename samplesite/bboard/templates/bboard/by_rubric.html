@@ -10,7 +10,7 @@
   <div>
     <a href="/bboard/">Главная</a>
     {% for rubric in rubrics %}
-    <a href="/bbaord/{{ rubric.pk }}/">{{ rubric.name }}</a>
+    <a href="/bboard/{{ rubric.pk }}/">{{ rubric.name }}</a>
     {% endfor %}
   </div>
   {% for bb in bbs %}
